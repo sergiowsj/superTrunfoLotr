@@ -1,0 +1,175 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 854px;
+    background-image: url('https://external-preview.redd.it/B341H1Bp9WWBMUafzoUqhGsGjmpT-mWE3-n-AK7pcxc.jpg?auto=webp&s=7fe13eae4aa19907db2384583f12f001fa7b7328');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #c0791d;
+    background-color: #252525;
+    width: 270px;
+    text-align: center;
+    border: #ffffff;
+    border-radius: 10px;
+    margin: auto;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+button {
+    padding: .8rem 1.5rem;
+    border-radius: 3px;
+    border: 0px;
+    font-size: 1rem;
+    color: #c0791d;
+    background: #252525;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    width: 170px;
+    margin: auto;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+button:hover {
+    background: #e79a35;
+    color: #252525;
+    transition: all 0.5s ease-in-out;
+  }
+
+  #botaoZerar {
+    margin: 5px;
+  }
+
+h2 {
+    color: #c0791d;
+    background-color: #252525;
+    width: 700px;
+    margin: auto;
+    border: #ffffff;
+    border-radius: 10px;
+}
+
+#carta-jogador, #carta-maquina {
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 10px;
+    border-radius: 33px;
+}
+
+#carta-jogador h3 {
+    text-align: center;
+}
+
+.carta-imagem {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+}
+
+.carta-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta-status {
+    height: 160px;
+    margin: 2rem;
+    color: #ffad41;
+    z-index: 2;
+    text-align: left;
+}
+
+.carta-MaquinaStatus {
+    height: 0px;
+    margin: 1rem;
+}
+
+.carta-status input {
+    margin: 10px 10px;
+}
+
+.resultado-final {
+    color: #c0791d;
+    background: #252525;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 1rem;
+    border: 2px solid rgb(0, 0, 0);
+    width: 1200px;
+    margin: auto;
+}
+
+.--spacing {
+    margin-left: 2.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.carta-subtitle {
+    z-index: 2;
+    position: absolute;
+    top: 16px;
+    left: 37px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#cartas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carta-status p {
+    margin-bottom: 2rem;
+}
+
+#logoLotr {
+    width: 400px;
+    font-size: 0px;
+}
+
+.page-logo {
+    width: 300px;
+}
+
+#editarPlacar {
+    color: #c0791d;
+    background-color: #252525;
+    font-size: 20px;
+    width: 170px;
+    height: 140px;
+    margin: auto;
+    border-radius: 20px;
+    border: solid;
+    border-color: black;
+}
